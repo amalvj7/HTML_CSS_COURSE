@@ -1,0 +1,55 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background-color: rgb(151, 106, 193);
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.first{
+    color: white;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second{
+    display: flex;
+
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box{
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    border-radius: 15px;
+    width: 700px;
+}
+
+.search-box::placeholder{
+    font-weight: 500px;
+}
+
+.third{
+    display:flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    color: white;
+    background-color: rgb(151, 106, 193);
+    border-style: solid;
+    border-width:  2px; 
+    border-color: white;
+    height: 30px;
+    border-radius: 3px;
+    
+}

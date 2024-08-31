@@ -1,0 +1,54 @@
+.request{
+    font-size: 50px;
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+.pickup_box{
+    display: block;
+    width: 800px;
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: rgb(240, 236, 236);
+    border: none;
+}
+
+.pickup_box::placeholder{
+    font-size: small;
+    padding-left: 10px;
+}
+
+.dest_box{
+    display: block;
+    width: 800px;
+    height: 35px;
+    background-color: rgb(247, 243, 243);
+    border: none;
+    margin-bottom: 20px;
+
+}
+
+.dest_box::placeholder{
+    font-size: small;
+    padding-left: 10px;
+}
+
+.request_button{
+    background-color: black;
+    color: white;
+    font-size: medium;
+    width: 140px;
+    height: 35px;
+    margin-right: 8px;
+    border: none;
+}
+
+.Schedule_button{
+    background-color: rgb(197, 192, 192);
+    color: black;
+    font-size: medium;
+    width: 200px;
+    height: 35px;
+    border: none;
+
+}
